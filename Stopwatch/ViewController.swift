@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var time = 0
+    
     func result()
     {
-        print ("1 second has passed")
+        time++
+        print (time)
     }
 
     override func viewDidLoad() {
